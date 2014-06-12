@@ -47,7 +47,7 @@ body {
 .login_form .button_a {width:73px; height:23px; line-height:22px; background:#67a001; text-align:center; font-size:12px; color:#fff; border:1px solid #dcdcdc; cursor:pointer}
 .login_form .button_b {background:#ff4d18}
 .header .main_menu {height:51px; background:url(../images/main-mn.png) repeat-x 0 0; color:#fff;}
-.hotline {font-family:luckiest_guyregular; font-size:30px; text-transform:uppercase; }
+.hotline {font-family:luckiest_guyregular; font-size:30px; text-transform:uppercase; font-weight:normal}
 .hotline span {font-size:20px;}
 .main_menu ul.menu {text-align:right; width:765px; margin-right:75px; float:left;}
 .main_menu ul.menu li{ padding:11px 12px;}
@@ -67,8 +67,10 @@ ul.tabs li.active {border-bottom:9px solid #fff; padding-bottom:0; background-co
 ul.tabs li.tab2 {background-position:23px -89px}
 ul.tabs li.tab3 {background-position:23px -195px}
 ul.tabs li.tab4 {background-position:23px -298px}
-.head_dish {background:url(../images/head.png) repeat-x 0 0; height:33px; line-height:33px; color:#393c3e;  text-align:center; text-transform:uppercase; margin:27px 0 24px;}
+.tab_content {padding-top:27px;}
+.head_dish {background:url(../images/head.png) repeat-x 0 0; height:33px; line-height:33px; color:#393c3e;  text-align:center; text-transform:uppercase; margin-bottom: 24px;}
 .head_dish h1 {font-size:23px;}
+.products {margin-bottom:20px;}
 .products li.item {background:url(../images/shadow.png) no-repeat center bottom; padding-bottom:22px;}
 .products li.item .bg {width:231px; border:1px solid #ddd; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; position:relative}
 .products li.item img {width:219px; height:163px; padding:6px;}
@@ -80,3 +82,82 @@ ul.tabs li.tab4 {background-position:23px -298px}
 .products li.item:hover .overlay {display:block;}
 .button {background:#8bcd15; width:100px; height:39px; text-align:center; line-height:39px; text-transform:uppercase; color:#fff; border:none; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
 .products li.item .overlay .button {margin: 82px auto; display:block;}
+.products.free li.item .info {text-align:center;}
+.bottom_banner {background:url(../images/bottombanner.jpg) no-repeat 0 0; width:778px; height:137px; margin: 30px auto 45px; color:#fff; padding:15px 59px 0px 186px}
+.bottom_banner h1 {font-size:20px; text-transform:uppercase;}
+.bottom_banner h1.second {margin:19px 0 27px; color:#323232; text-align:center; line-height:28px;}
+.bottom_banner h1.second strong.org {font-size:25px;}
+.quotes {font-size:30px; color:#65ab11; font-weight:normal;}
+.bottom_banner h1.hotline {font-size:30px; text-align:center; line-height:27px;}
+.threesteps {width:647px; margin:30px auto}
+.threesteps div.step { background:url(../images/step1.png) no-repeat left center; width: 216px; height:164px; float:left; margin-left:25px; }
+.threesteps div.step.step1 {background:none; margin-left:0; width:164px;}
+.threesteps div.step .bg {background:url(../images/step.png) no-repeat 0 0; width:164px;color:#fff; font-size:16.44px; text-align:center; font-weight:bold; float:right}
+.threesteps div.step p {display:block; padding-top:100px; padding-bottom:12px; background-repeat:no-repeat; background-position:center 35px;}
+.threesteps div.step.step1 p {background-image:url(../images/step111.png);}
+.threesteps div.step.step2 p {background-image:url(../images/step22.png);}
+.threesteps div.step.step3 p {background-image:url(../images/step33.png);}
+.threesteps div.step h1 {font-size:27.33px;}
+.threesteps div.step.active {background:url(../images/step11.png) no-repeat left center}
+.threesteps div.step.active .bg {background-image:url(../images/stepactive.png)}
+.footer {height:329px; color:#fff; position:relative; margin-top:60px;}
+.footer .top {background:#31382b; height:287px;}
+.footer .top .col {width:33%; float:left;}
+.contact {padding-left:17px;}
+.contact li {background:url(../images/contact.png) no-repeat left 0; height: 35px; padding-left:43px; line-height:36px; display:block; margin-bottom:15px;}
+.contact li.hotline {font-size:21.67px; line-height:40px}
+.contact li.mail {background-position:left -71px}
+.contact li.facebook {background-position:left -137px}
+.footer .bottom {background:#252526; height:42px; line-height:42px;}
+.footer_logo {margin:32px 0 21px}
+.footer .col .faq {padding-top:30px; width:250px;}
+.footer .col .faq h2 {border-bottom:1px solid #6f746b; font-weight:normal; text-transform:uppercase; font-size:18px; line-height:36px;}
+.faq li {background:url(../images/dot.png) no-repeat left center; display:block;border-bottom:1px solid #6f746b; padding:15px 0 15px 20px;}
+.fblikebox h3 {background:url(../images/fb.png) no-repeat left center; padding-left:30px; padding-top:15px; padding-bottom:10px;}
+.fblikebox .bg iframe {background:#fff;}
+.right_hotline {position:absolute; right:0; top:-145px; background:url(../images/right-hotline.png) no-repeat 0 0; width:229px; height:64px; padding:81px 0px 0px 159px; z-index:1}
+.right_hotline h2 {font-size:20px; color:#323232;}
+.right_hotline h1 {font-size:31px; color:#7abe01}
+.right_cart {position:fixed; right:0; top:165px; background:url(../images/right.png) no-repeat 0 0; width:80px; height:222px; z-index:9}
+.r_cart {background:url(../images/right-cart.png) no-repeat; width:38px; height:38px; position:relative;margin-top: 88px;margin-left: 20px;}
+.r_cart .numb {background:url(../images/numb-r-cart.png) no-repeat 0 0; height:28px; width:28px; display:block; text-align:center; line-height:28px; font-size:11px; color:#fff; position:absolute; right: -14px;top: -17px;}
+a.totop {background:url(../images/top.png) no-repeat 0 0; height:38px; width:38px; display:block; margin-top:20px; margin-left:20px}
+/* ___________________________end home____________________________________ */
+
+/* ___________________________Order____________________________________ */
+.order {margin-top:28px;}
+.sidebar {width:233px; float:left; margin-right:25px;}
+.primary {float:left;}
+.block {margin-bottom:24px;}
+.block .block_title {background:#31382b; color:#fff; height:41px; margin-bottom:2px; text-align:center }
+.block_title h3 {font-size:19px; line-height:41px;}
+.block ul li {background:#8bcd15; height:41px; line-height:41px; margin-bottom:1px; display:block; font-size:16px; color:#fff; padding-left:30px;}
+.block ul li.active {background:#edf0f1; color:#31382b;}
+.block ul li .price_b {float:right; padding-right:15px;}
+.order_banner {background:url(../images/orderbanner.jpg) no-repeat 0 0; width:618px; height:96px; padding:15px 0 0px 122px; margin:0 0 28px;}
+.order_banner h1 {font-size:15px;}
+.order_banner h1.second {margin: 3px 0 14px; width:559px;}
+.order_banner h1.second strong.org {font-size:18px;}
+.order_banner .quotes {font-size:24px;}
+.order_banner h1.hotline {font-size:22px; width:559px;}
+.order_banner h1.hotline span {font-size:15px;}
+.primary_block .title {background:#8bcd15; color:#fff; font-size:19px; padding-left:23px; line-height:39px; height:39px;}
+.pr_block_content {background:#edf0f1; padding:14px 32px 19px 23px; margin-bottom:24px;}
+.input_text {height:33px; line-height:33px\9; border:1px solid #cacaca; background:#fff; padding-left:5px; width:315px;}
+.input_text:focus{border:1px solid #8bcd15; outline:none;}
+.pr_block_content p {margin-bottom:15px;}
+.pr_block_content p label {vertical-align:middle; width:86px; display:inline-block}
+.current_menu table {margin-bottom:5px;}
+.current_menu table td {font-weight:bold; font-size:17px; padding:10px 5px; color:#434343; vertical-align:middle}
+.button_d {background:#ff4d18; height:25px; line-height:25px; color:#fff; text-align:center; display:inline-block; width:72px; border:1px solid #cacaca;}
+.button_e {background:#ff683a;}
+.current_menu table td .button_e {margin-left:15px;}
+.button_d.active{background:#525e49;}
+.input_numb {width:92px; padding-left:5px; height:25px; line-height:25px; font-size:17px; color:#31382b; outline:none;border:1px solid #cacaca;}
+.input_numb:focus {border:1px solid #8bcd15; outline:none; outline-offset: 0;}
+.current_menu table td .numb_mn label {font-weight:normal}
+.current_menu p .org{color:#ff4d18; font-size:17px;}
+.current_menu p textarea {width:675px; height:76px; border:1px solid #cacaca}
+.button_f {background:url(../images/button_f.png) repeat-x 0 0; height: 35px; display:inline-block; text-align:center; border:1px solid #cacaca; width:141px; font-size:20px; color:#fff; cursor:pointer}
+.button_g {background:url(../images/button_g.jpg) repeat-x 0 0; margin-left:20px;}
+.buttonset {text-align:center}

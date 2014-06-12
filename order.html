@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gọi cơm</title>
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/goicom.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="header" id="header">
+  <div class="inner">
+    <div class="top">
+      <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+      <div class="time">
+        <h2>Đặt hàng onlin<span>8h > 9h30</span></h2>
+        <h2>Tích điểm giảm giá</h2>
+        <a class="button_c" href="#">Chi tiết</a> </div>
+      <div class="login_form">
+        <p>
+          <input type="text" class="input_text1" placeholder="Số điện thoại..." name="phonenumber" />
+          <input type="button" class="button_a" value="Đăng nhập"/>
+        </p>
+        <p>
+          <input type="password" class="input_text1" placeholder="Mật khẩu..." name="password" />
+          <input type="button" class="button_b button_a" value="Đăng ký"/>
+        </p>
+      </div>
+    </div>
+    <div class="clear"></div>
+    
+  </div>
+  <div class="main_menu">
+  <div class="inner">
+      <ul class="menu">
+        <li class="active home"><a href="/">Trang chủ</a></li>
+        <li><a href="#">Đặt hàng</a></li>
+        <li><a href="#">Trợ giúp</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+      <div class="top_cart right"><span>Giỏ hàng <span class="numb">(2)</span></span></div>
+    </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="content order">
+	<div class="inner">
+	<div class="sidebar">
+    	<div class="block day_mn">
+        	<div class="block_title"><h3>Thực đơn tuần này</h3></div>
+            <ul class="daily">
+            	<li><a href="#">Thứ 2</a></li><li class="active"><a href="#">Thứ 3</a></li><li><a href="#">Thứ 4</a></li><li><a href="#">Thứ 5</a></li><li><a href="#">Thứ 6</a></li><li><a href="#">Thứ 7</a></li>
+            </ul>
+        </div>
+        <div class="block water_mn">
+        	<div class="block_title"><h3>Giải khát</h3></div>
+            <ul class="daily">
+            <li>Nước mía <span class="price_b">10k</span></li>
+            <li>Nước chanh <span class="price_b">7k</span></li>
+            <li>Nước Dừa <span class="price_b">20k</span></li>
+            <li>Coca <span class="price_b">5k</span></li>
+            <li>Pepsi<span class="price_b">5k</span></li>
+            <li>Sting <span class="price_b">5k</span></li>  
+            </ul>
+        </div>
+           <div class="block ice_mn">
+        	<div class="block_title"><h3>Giải khát</h3></div>
+            <ul class="daily">
+            <li>Merino chanh muối <span class="price_b">10k</span></li>
+            <li>Merino chanh muối <span class="price_b">7k</span></li>
+            <li>Merino chanh muối <span class="price_b">20k</span></li>
+            <li>Merino chanh muối <span class="price_b">5k</span></li>    
+            </ul>
+        </div>
+    </div>
+    <div class="primary">
+    	  <div class="bottom_banner order_banner">
+            <h1 class="first">Vui lòng gọi trước <span>10h</span> Sáng để chúng tôi phục vụ bạn tốt nhất !</h1>
+            <h1 class="second">gọi từ <span class="org">8h > 9h30</span>  được tích điểm hóa đơn <span class="quotes">[</span><strong class="org">10k = 1điểm = 1k</strong><span class="quotes">]</span></h1>
+            <h1 class="hotline"><span>Hotline:</span> 0973 807 636  -  0169 999 999  </h1>
+  		</div>
+        <div class="head_dish">
+          	<h1>Đặt hàng</h1>
+        	</div>
+          <form action="#" method="post" class="order_info">
+          	<div class="primary_block customer_info">
+            	<div class="title"><h3>Thông tin khách hàng</h3></div>
+                <div class="pr_block_content">
+                	<p><label>Họ và tên:</label><input type="text" name="name" class="input_text" /></p>
+                    <p><label>Điện thoại:</label><input type="tel" name="phone" class="input_text" /></p>
+                    <p><label>Địa chỉ:</label><input type="text" name="add" class="input_text" style="width:510px"/></p>
+                </div>
+            </div>
+            <div class="primary_block current_menu">
+            	<div class="title"><h3>Thực đơn ngày thứ 3</h3></div>
+                <div class="pr_block_content">
+                	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td>1.Cơm gà om dưa</td>
+                        <td><p><span class="button_d">25K</span><span class="button_e button_d">30K</span></p></td>
+                        <td><p class="numb_mn"><label>Số lượng:</label><input type="number" class="input_numb" name="number" value="0"/></p></td>
+                      </tr>
+                      <tr>
+                        <td>2.Cơm bò xào cần tỏi</td>
+                        <td><p><span class="button_d">25K</span><span class="button_e button_d">30K</span></p></td>
+                        <td><p class="numb_mn"><label>Số lượng:</label><input type="number" class="input_numb" name="number" value="0"/></p></td>
+                      </tr>
+                      <tr>
+                        <td>3.Cơm Cá thu sốt cà</td>
+                        <td><p><span class="button_d">25K</span><span class="button_e button_d">30K</span></p></td>
+                        <td><p class="numb_mn"><label>Số lượng:</label><input type="number" class="input_numb" name="number" value="0"/></p></td>
+                      </tr>
+                      <tr>
+                        <td>1.Cơm Thịt kho trứng</td>
+                        <td><p><span class="button_d">25K</span><span class="button_e button_d">30K</span></p></td>
+                        <td><p class="numb_mn"><label>Số lượng:</label><input type="number" class="input_numb" name="number" value="0"/></p></td>
+                      </tr>
+                    </table>
+					<p><strong class="org">Yêu cầu thêm:</strong> ( Gọi thêm cơm,... )</p>
+                    <p><textarea name="moreinfo"></textarea></p>
+                </div>
+            </div>
+            <div class="buttonset"><button type="submit" class="button_f">Đặt hàng</button><button class="button_g button_f" type="submit">Chọn lại</button></div>
+          </form> 
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+<div class="footer">
+<div class="right_hotline hotline">
+	<h2>Hotline</h2>
+    <h1>0973 807 636</h1>
+</div>
+<div class="right_cart">
+	<div class="r_cart"><span class="numb">22</span></div>
+    <a href="#header" class="totop"></a>
+</div>
+<div class="top">
+  <div class="inner">
+  	<div class="col">
+    	<div class="footer_logo"><a href="/"><img src="images/footerlogo.png" alt="logo" /></a></div>
+        <ul class="contact">
+        	<li class="phone hotline">0973 807 636 </li>
+            <li class="mail">maiminhman@gmail.com </li>
+            <li class="facebook">Goicom.vn</li>
+        </ul>
+    </div>
+    <div class="col"><div class="faq">
+    	<h2>Câu hỏi thường gặp</h2>
+        <ul><li><a href="#">Tôi có thể chọn món canh riêng ?</a></li>
+        	<li><a href="#">Tôi có thể chọn món canh riêng ?</a></li>
+            <li><a href="#">Tôi có thể chọn món canh riêng ?</a></li>
+            <li><a href="#">Tôi có thể chọn món canh riêng ?</a></li>
+        </ul></div>
+    </div>
+    <div class="col fblikebox">
+    	<h3>Facebook</h3>
+        <div class="bg">
+        <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true" width="240" height="225"></div>
+        <div class="clear"></div>
+        </div>
+        
+    </div>
+   </div>
+   </div>
+   <div class="bottom"><div class="inner">
+   <p>&copy;Copyright 2014 goicom.vn l Dịch vụ gọi cơm nhanh</p></div>
+   </div>
+</div>
+</body>
+</html>
